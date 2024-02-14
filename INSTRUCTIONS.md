@@ -7,4 +7,6 @@
 6. During flowing water, press the Z button (or Z key if ur on computer)
 
 # Domains
-X - Fist Room of Doom\Y - Micro Atomic Maze\Z - Baseplate
+X - Fist Room of Doom <br /)
+Y - Micro Atomic Maze <br /)>
+Z - Baseplate

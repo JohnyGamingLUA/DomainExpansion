@@ -4,7 +4,7 @@
 -- 3. Type "X", then insert "X". Repeat the same for Y and Z. (only for mobile)
 -- 4. Close the keyboard GUI (only for mobile)
 -- 5. Use flowing water on someone
--- 6. During flowing water, press the Z button (or Z key if ur on computer)
+-- 6. During flowing water, press the X, Y or Z button (or X, Y, or Z key if ur on computer)
 
 -- DOMAINS
 -- X - Fist Room of Doom

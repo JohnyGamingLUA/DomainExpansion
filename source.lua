@@ -9,9 +9,9 @@
 -- 3. Press 5, 6 or 7 to expand your domain
 
 -- DOMAINS
--- X - Fist Room of Doom
--- Y - Micro Atomic Maze
--- Z - Baseplate
+-- 5 - Fist Room of Doom
+-- 6 - Micro Atomic Maze
+-- 7 - Baseplate
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/JohnyGamingLUA/DomainExpansion/main/obfuscated.lua'))()
 local UserInputService = game:GetService("UserInputService")

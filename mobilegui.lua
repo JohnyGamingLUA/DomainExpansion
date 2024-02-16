@@ -13,7 +13,7 @@ local TextButton_3 = Instance.new("TextButton")
 ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-ScreenGui.Name = DomainGUI
+ScreenGui.Name = "DomainGUI"
 
 TextButton.Parent = ScreenGui
 TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)

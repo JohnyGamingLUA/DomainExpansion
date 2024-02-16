@@ -10,7 +10,7 @@ local TextButton_2 = Instance.new("TextButton")
 local TextButton_3 = Instance.new("TextButton")
 
 --Properties:
-
+ScreenGui.ResetOnSpawn = false
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -61,3 +61,4 @@ end)
 TextButton_3.MouseButton1Down:Connect(function()
 	keypress(55)
 end)
+ScreenGui.ResetOnSpawn = false

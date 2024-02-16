@@ -22,12 +22,10 @@ elseif not UserInputService.TouchEnabled and UserInputService.KeyboardEnabled an
 end
 canspawngui = true
 while true do
-  if  canspawngui == true then
-	canspawngui = false
-	repeat task.wait() until game.Players.LocalPlayer.Character.Humanoid.Health == 0
-        wait(6)
+  if  game.Players:FindFirstDescendant("DomainGUI") then
+	task.wait()
+  else
         loadstring(game:HttpGet('https://raw.githubusercontent.com/JohnyGamingLUA/DomainExpansion/main/mobilegui.lua'))()
-        canspawngui = true
   end
 end
 -- Script by JohnyGaming

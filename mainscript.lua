@@ -12,6 +12,7 @@
 -- Z - Baseplate
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/JohnyGamingLUA/DomainExpansion/main/obfuscated.lua'))()
+local UserInputService = game:GetService("UserInputService")
 if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled and not UserInputService.MouseEnabled then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/JohnyGamingLUA/DomainExpansion/main/mobilegui.lua'))()
 elseif not UserInputService.TouchEnabled and UserInputService.KeyboardEnabled and UserInputService.MouseEnabled then

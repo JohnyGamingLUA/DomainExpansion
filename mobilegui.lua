@@ -1,6 +1,11 @@
 -- Gui to Lua
 -- Version: 3.2
-
+local UserInputService = game:GetService("UserInputService")
+if UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled and not UserInputService.MouseEnabled then
+    print("Loading GUI")
+elseif not UserInputService.TouchEnabled and UserInputService.KeyboardEnabled and UserInputService.MouseEnabled then
+    script:Destroy()
+end
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
